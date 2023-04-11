@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "flomedia"
+  # cloud {
+  #   organization = "flomedia"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform-cloud"
+  #   }
+  # }
 
   required_providers {
     aws = {
